@@ -1,0 +1,103 @@
+<!-- Day 19: Assignment - Responsive Web Design Mastery -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="19_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Page 1: Home Section-->
+    <header id="home" class="homepage">
+        <div class="homepage-content">
+            <h1>Welcome To Our Website</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea
+                expedita ipsa consequuntur inventore eos quibusdam temporibus cum in
+                consectetur, amet iste quisquam veritatis reiciendis cumque tenetur
+                tempore laborum dolores.
+            </p>
+            <br />
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Page 2: About Us Section-->
+    <section id="about" class="about">
+        <h1>About Us</h1>
+        <div class="row">
+
+            <div class="about-col-2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                    laborum possimus fugiat error ut distinctio, enim, nemo nesciunt
+                    incidunt accusamus mollitia a dolor molestias saepe adipisci maiores
+                    blanditiis esse voluptatem!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quia
+                    laborum neque debitis deserunt molestias reiciendis numquam mollitia
+                    tenetur facere dolorum adipisci at, voluptates ad repellendus
+                    accusamus ullam et. Commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus tempore ullam accusantium eaque temporibus quaerat
+                    repellat deserunt, dignissimos, perspiciatis omnis necessitatibus
+                    nam cum nulla similique numquam optio enim ab rerum?
+                </p>
+            </div>
+            <div class="about-col-1">
+                <img src="images/comp-set-up-2.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!--Page 3: Contact Us Section-->
+    <section id="contact" class="contact">
+        <h1>Contact Us</h1>
+        <div class="row">
+            <div class="contact-col-1">
+                <img src="images/comp-set-up.png" alt="" />
+            </div>
+
+            <div class="contact-col-2">
+                <form action="#">
+                    <p>Get in Touch</p>
+                    <label for="name">Name:</label><br />
+                    <input type="text" name="name" id="name" placeholder="Lorem Ipsum" /><br />
+
+                    <label for="email">Email:</label><br />
+                    <input type="email" name="email" id="email" placeholder="loremipsum@example.com" /><br />
+
+                    <label for="msg">Message:</label><br />
+                    <textarea name="message" id="msg" cols="20" rows="4"
+                        placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit."></textarea><br />
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>All Rights Reserved &copy; 2023 - Made by Jerry Mbola</p>
+    </footer>
+</body>
+
+</html>

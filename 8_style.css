@@ -1,0 +1,9 @@
+ul li{
+    color: crimson;
+}
+/* 
+External CSS:
+ul li - element selector for the list items;
+color - property name;
+crimson - value for the property;
+*/

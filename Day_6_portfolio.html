@@ -1,0 +1,74 @@
+<!--
+DAY - 06
+ TOPICS:
+    1. HTML Semantic Elements
+    2. HTML <!DOCTYPE>
+    3. HTML Viewport Meta Tag
+    4. HTML - Embed a pdf [embed, object, iframe]
+    5. HTML - dir Attribute [ rtl, lrt, auto]
+    6. HTML Validator
+-->
+
+<!-- DAY - 06: Portfolio Webpage -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <!--Navigation Bar-->
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!--About Me Section-->
+    <section>
+        <h2>About Me</h2>
+
+        <!--Article-->
+        <article>
+            <p>My name is Rahul Malik and I'm a web developer with a passion for creating beautiful and funtional
+                websites. With over 5 years of experience in the field, I've worked with clients from various industries
+                to bring their visions to life on the web.</p>
+        </article>
+    </section>
+
+    <!--Aside-->
+    <aside>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>My SQL</li>
+        </ul>
+    </aside>
+
+    <!--Resume Section-->
+    <section>
+        <embed src="docs/resume.pdf" type="application/pdf" height="100" width="200">
+        <p dir="rtl">المرفقة أعلاه هي سيرتي الذاتية لمزيد من الإطلاع.</p>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <h2>Contact</h2>
+        <p>Email: rahulmalik@example.com</p>
+        <p>Phone: (555) 123-4567</p>
+    </footer>
+
+</body>
+
+</html>

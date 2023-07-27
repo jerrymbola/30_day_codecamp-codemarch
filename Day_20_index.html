@@ -1,0 +1,95 @@
+<!-- Day 20: Assignment - CSS Multiple Columns and Flexbox Model -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Columns and Flexbox Model</title>
+    <link rel="stylesheet" href="20_style.css">
+</head>
+
+<body>
+    <!--Navbar Section-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="home" class="hero">
+        <div>
+            <h1>Welcome To Our Website</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam alias quo odio dolores aliquid
+                earum
+                temporibus omnis rerum excepturi doloremque laboriosam officia culpa harum incidunt, nihil maiores iure
+                id.</p>
+            <br>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <!--Service Section-->
+    <section id="services" class="service">
+        <div class="service-col">
+            <img src="images/gym/gina-lin-m27OTMegUyA-unsplash.jpg" alt="">
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est id eaque distinctio, voluptatem
+                sequi, laudantium
+                magni quam aut minima, repellat voluptates neque harum error blanditiis aliquam! Quidem, illo incidunt!
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="service-col">
+            <img src="images/gym/Untitled (2).png" alt="">
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est id eaque distinctio, voluptatem
+                sequi, laudantium magni quam aut minima, repellat voluptates neque harum error blanditiis aliquam!
+                Quidem, illo incidunt!</p>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="service-col">
+            <img src="images/gym/anastase-maragos-ZUBNPRZsQvk-unsplash.jpg" alt="">
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est id eaque distinctio, voluptatem
+                sequi, laudantium
+                magni quam aut minima, repellat voluptates neque harum error blanditiis aliquam! Quidem, illo incidunt!
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <div class="contact-col">
+            <img src="images/gym/craig-lovelidge-ndr4vtteVGw-unsplash.jpg" alt="">
+        </div>
+        <div class="contact-col">
+            <form action="#">
+                <p>Get in Touch</p>
+                <label for="name">Name:</label><br />
+                <input type="text" name="name" id="name" placeholder="Lorem Ipsum" /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" name="email" id="email" placeholder="loremipsum@example.com" /><br />
+
+                <label for="msg">Message:</label><br />
+                <textarea name="message" id="msg" rows="3"
+                    placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit."></textarea><br />
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <p>&copy;2023 Codemarch. All Rights Reserved. <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+
+</html>

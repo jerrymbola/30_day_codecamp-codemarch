@@ -1,0 +1,65 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gradient {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, cyan, lightgreen);
+
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    overflow-y: scroll;
+    background: #dce4e8;
+    padding: 20px;
+}
+
+textarea {
+    resize: horizontal;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+label {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    width: 100%;
+    font-size: 16px;
+    background: #121618;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}

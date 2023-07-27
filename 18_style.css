@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Header Section*/
+header {
+    width: 100vw;
+    background-color: #ffc851;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Main Section*/
+.row {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/*Card [1-3]*/
+.row-column {
+    flex-basis: 28%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.row-column:hover {
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.568);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.content {
+    padding: 2px 16px;
+}
+
+.content h3 {
+    padding: 10px 0 0 0;
+}
+
+.content p {
+    padding: 10px 10px 20px 0;
+}
+
+.row-column img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/*Footer Section*/
+footer {
+    background-color: #778899;
+    color: #dce4e8;
+    text-align: center;
+}
+
+footer p {
+    padding: 10px;
+}

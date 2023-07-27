@@ -1,0 +1,52 @@
+<!--
+DAY - 05
+ TOPICS:
+    1. HTML Iframes [ <iframe src="" title="description"></iframe> ]
+    2. HTML Multimedia (sound, music, videos, movies, and animations)
+    3. HTML Forms
+    4. HTML Canvas
+    5. HTML Emojis
+-->
+
+<!-- DAY - 05: Feedback Form Webpage -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+
+    <!----Google Map Location---->
+    <h2>Our Location</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2441.2605804568348!2d36.82313564178367!3d-1.2860282599276662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1689433255603!5m2!1sen!2ske"
+        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!----Audio---->
+    <h2>Our Theme Song</h2>
+    <audio src="audio/Free Happy Background Music   No Copyright Music For YouTube Vlog Videos Royalty Free.mp3"
+        controls autoplay muted></audio>
+
+    <!----Canvas---->
+    <h2>Canvas Placeholder Image</h2>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>
+
+    <!----Form---->
+    <h2>Feedback Form</h2>
+    <p>Kindly share your feedback with us &#128512 </p>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="Name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email"><br>
+    <label for="feedback">Feedback:</label><br>
+    <textarea name="feedback" id="feedback" cols="19" rows="4"></textarea><br>
+    <button type="submit">Submit</button>
+
+</html>

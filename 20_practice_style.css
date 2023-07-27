@@ -1,0 +1,20 @@
+p{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid;
+}
+.flex-container{
+    display: flex;
+    background-color: skyblue;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-child{
+    background-color: #d6efed;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}

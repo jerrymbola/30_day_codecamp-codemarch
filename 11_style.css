@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+}
+nav ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li:hover{
+    background-color: #dce4e8;
+}
+nav{
+    background-color: #ebad4e;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}

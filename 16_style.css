@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #0c0e0d;
+    --main-text-color: #ffffff;
+    --btn-bg-color: #096b6b;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    color: var(--main-text-color);
+    text-align: center;
+    width: inherit;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+section {
+    width: inherit;
+    text-align: center;
+}
+
+.image-box {
+    object-fit: cover;
+    width: 450px;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: var(--btn-bg-color);
+    color: var(--main-text-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9rem;
+    margin-top: 80px;
+}
+
+.btn:hover {
+    background-color: var(--main-text-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+p {
+    color: var(--main-text-color);
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--btn-bg-color);
+}
