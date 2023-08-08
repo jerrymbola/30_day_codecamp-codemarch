@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class="text-center bg-[#0b0c10] p-5">
+        <h1 class="font-bold text-4xl text-[#66fcf1] mb-3">CodeMarch</h1>
+        <p class="text-[#c5c6c7] py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus commodi quos ea esse, in soluta aspernatur laudantium obcaecati illum omnis, distinctio sapiente culpa? Illum quam quidem quaerat, fuga ex alias dolorum officia quod totam debitis perferendis labore sint? Itaque, ipsa?</p>
+
+        <!--<button class="bg-transparent hover:bg-[#66fcf1] text-[#c5c6c7] font-semibold hover:text-[#0b0c10] py-2 px-5 border border-[#66fcf1] hover:border-transparent rounded mt-3">Subscribe</button>-->
+
+        <button class="group relative py-2 px-5 overflow-hidden rounded bg-white font-semibold mt-3">
+            <div class="absolute inset-0 w-2 bg-[#66fcf1] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span class="relative text-black">Subscribe!</span>
+        </button>
+    </div>
+</body>
+
+</html>
